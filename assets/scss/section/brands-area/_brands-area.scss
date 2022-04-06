@@ -1,0 +1,23 @@
+.brands-area {
+  padding: 5.5rem 0;
+  .slick-slider {
+    margin:0 -12px;
+  }
+  .slick-slide {
+    margin:0 12px;
+  }
+  .brand {
+    text-align: center;
+    img {
+        opacity: .6;
+        transition: $transition;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+    &:hover {
+        img {
+            opacity: 1;
+        }
+    }
+  }
+}

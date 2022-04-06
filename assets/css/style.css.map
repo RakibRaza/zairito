@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,QAAQ;CAqBlB;;AAtBD,AAEE,YAFU,CAEV,aAAa,CAAC;EACZ,MAAM,EAAC,OAAO;CACf;;AAJH,AAKE,YALU,CAKV,YAAY,CAAC;EACX,MAAM,EAAC,MAAM;CACd;;AAPH,AAQE,YARU,CAQV,MAAM,CAAC;EACL,UAAU,EAAE,MAAM;CAYnB;;AArBH,AAUI,YAVQ,CAQV,MAAM,CAEJ,GAAG,CAAC;EACA,OAAO,EAAE,EAAE;EACX,UAAU,EFJL,GAAG,CAAC,IAAG,CAAC,MAAM;EEKnB,MAAM,EAAE,OAAO;EACf,MAAM,EAAE,MAAM;CACjB;;AAfL,AAiBQ,YAjBI,CAQV,MAAM,AAQH,MAAM,CACH,GAAG,CAAC;EACA,OAAO,EAAE,CAAC;CACb",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/variable/_variable.scss",
+        "../scss/mixin/_mixin.scss",
+        "../scss/section/brands-area/_brands-area.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

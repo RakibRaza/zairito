@@ -1,0 +1,28 @@
+.brands-area {
+  padding: 5.5rem 0;
+}
+
+.brands-area .slick-slider {
+  margin: 0 -12px;
+}
+
+.brands-area .slick-slide {
+  margin: 0 12px;
+}
+
+.brands-area .brand {
+  text-align: center;
+}
+
+.brands-area .brand img {
+  opacity: .6;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.brands-area .brand:hover img {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
