@@ -48,8 +48,8 @@ opacity: $opacity;
 @mixin flex-position($display, $contet, $items) {
 display: $display;
 justify-content: $contet;
-  align-items: $items;
-  flex-flow: row wrap;
+align-items: $items;
+flex-flow: row wrap;
 }
 
 @mixin center-position($top: $top, $left: $top) {

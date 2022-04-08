@@ -1,8 +1,5 @@
 .brands-area {
   padding: 5.5rem 0;
-  .slick-slider {
-    margin:0 -12px;
-  }
   .slick-slide {
     margin:0 12px;
   }
@@ -19,5 +16,15 @@
             opacity: 1;
         }
     }
+  }
+}
+@media (max-width: 767px) {
+  .brands-area {
+      padding: 4rem 0;
+  }
+}
+@media (max-width: 575px) {
+  .brands-area {
+      padding: 2.5rem 0;
   }
 }

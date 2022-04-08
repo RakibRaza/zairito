@@ -4,5 +4,19 @@
 // mixin
 @import "mixin/_mixin.scss";
 
+// body reset content
+@import "reset/_predefine.scss";
+
 // component content
+@import "section/button/button";
 @import "section/brands-area/brands-area";
+@import "section/popular-categories-area/popular-categories-area";
+@import "section/section-header-area/section-header-area";
+@import "section/products/single-grid-product";
+@import "section/about-area/about-area";
+@import "section/tabs/primary-tabs";
+@import "section/tabs/secendary-tabs";
+@import "section/product-banner/product-banner";
+@import "section/blog/blog-area";
+@import "section/blog/single-grid-blog";
+@import "section/image-gallery-area/image-gallery-area";
