@@ -1,0 +1,86 @@
+/*-------------------------
+#.hero-section-v2
+--------------------------*/
+.hero-section-v2 {
+    .hero-section-wrap {
+        margin: 6rem 13rem 0 13rem;
+    }
+    .signle-banner{
+        position: relative;
+        padding: 6rem 0 6rem 0;
+        background: #F8F3E7;
+        .hero-title {
+            margin-bottom: 2.5rem;
+            font-family: $marcellusFont;
+            font-size: 6.4rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            color: var(--black);
+        }
+        .hero-text {
+            margin-bottom: 4.5rem;
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+            color: #777777;
+        }
+        .hero-btn {
+            .secondary-btn {
+                margin-left: 1.5rem;
+            }
+        }
+        .hero-hero-image  {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 1600px) {
+    .hero-section-v2 .hero-section-wrap {
+        margin: 6rem 3rem 0 3rem;
+    }
+}
+@media (max-width: 1367px) {
+    .hero-section-v2 .signle-banner .hero-title {
+        font-size: 4.6rem;
+    }
+}
+@media (max-width: 991px) {
+    .hero-section-v2 .hero-section-wrap {
+        margin: 0;
+    }
+}
+@media (max-width: 991px) {
+    .hero-section-v2 .signle-banner {
+        padding: 10rem 0;
+    }
+}
+@media (max-width: 767px) {
+    .hero-section-v2 .signle-banner .hero-title {
+        font-size: 3.6rem;
+    }
+}
+@media (max-width: 575px) {
+    .hero-section-v2 .signle-banner .hero-btn .secondary-btn {
+        margin-left: 0;
+    }
+    .hero-section-v2 .secondary-btn {
+        padding: 1.2rem 2rem;
+        font-size: 1.4rem;
+    }
+    .hero-section-v2 .primary-btn-v2 {
+        padding: 1.4rem 2rem;
+        font-size: 1.4rem;
+    } 
+    .hero-section-v2 .secondary-btn .iocn {
+        position: relative;
+        top: 5px;
+        font-size: 2rem;
+        margin-left: 3px;
+    }
+}
+@media (max-width: 375px) {
+    .hero-section-v2 .signle-banner .hero-title {
+        font-size: 3.2rem;
+    }
+}
